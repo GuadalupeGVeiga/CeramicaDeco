@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Img/\ -2.jpg);
+    
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(129, 91, 53);
+}
+a:hover{
+    color: rgb(174, 140, 116);
+}
+.titulo{
+    font-family:'EB Garamond', serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 16rem;
+    color: rgb(129, 91, 53);
+    
+
+}
+.subtitulo{
+    font-family:'EB Garamond', serif;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(129, 91, 53);
+}
+.nav{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    font-family:'EB Garamond', serif;
+    font-size: 1.3rem;
+}
+
+
+.textoeimagen{
+    display: flex;
+    padding: 2rem;
+    gap: 10rem;
+    
+    
+   
+  
+}
+.img{
+   width: 30%;
+}
+
+.productos{
+    text-align: center;
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-family:'EB Garamond', serif;
+     font-size: 3rem;
+     padding: 1rem;
+     color: rgb(129, 91, 53);
+     
+
+}
+.texto{
+    font-family:'EB Garamond', serif;
+    text-align: center;
+    width: 50%; /* si esto lo hago mas chico la imagen se mueve y se va para la izquierda */
+    color: rgb(129, 91, 53);
+}
+
+.imagenes{
+    align-items: center;
+    width: 20%;
+    padding-top: 2rem;
+}
+
+.sub{
+    padding-top: 3rem;
+    font-family:'EB Garamond', serif;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(129, 91, 53);
+}
+
+.contenedor{
+  
+    padding: 2rem;
+    gap: 10rem;
+}
+
+.text{
+    color: rgb(129, 91, 53);
+}
+
+
+.foto{
+    width: 30%;
+    float: right;
+}
+
+.logo{
+    width: 20px;
+    float: left;
+    margin-right: 15px; 
+    padding-bottom: 20px;
+}
+
+.logo1{
+    width: 20px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+   
+}
+
+.contacto{
+
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+    font-family:'EB Garamond', serif;
+    background-color:rgb(250, 242, 230);
+    /*como hago para poner un background solo a la info y que me quede centrado? ?*/
+    border-radius: 3%; /*como hago para darle forma redonda?*/
+    color: rgb(129, 91, 53);
+    
+}
+
+.decoration{
+    text-decoration-line: underline;
+   
+}
+
+.info{
+    padding-bottom: 1rem;
+}
+
+.redesS{
+    display: flex;
+    justify-content: center;
+}
+.redes-texto{
+    padding-right: 1rem;
+    color: rgb(129, 91, 53);
+}
+
+
+
+
+
+
