@@ -13,19 +13,49 @@
             <a href="./sobreNosotros.html">Sobre nosotros</a>
             <a href="./Tienda.html">Tienda</a>
             <a href="./Cursoceramica.html">Cursos de ceramica</a>
-            <a href="./contactanos.html">Contanctanos</a>
+            <a href="./contactanos.html">Contactanos</a>
         </div>
+    </nav>
         <main>
-            <div class="contacto">
-                <h1 class="title">Contacto</h1>
-                <h3 class="decoration">Direccion de tienda fisica: 
-                <h4 class="info">Calle cualquier 1234</h4> 
-                <h3 class="decoration">Telefono:</h3>
-                <h4 class="info">+549 11234567</h4>
-                <h3 class="decoration">Mail: </h3>
-                <h4 class="info">Ceramica&Deco.gmail.com</h4>
-                <!-- Flata poner imagenes -->
-            </div>
+
+             
+            <div class="grid-contacto">
+                <div class="contacto"> 
+                    <h1 class="title">Contacto</h1>
+                    <h3 class="decoration">Direccion de tienda fisica: 
+                    <h4 class="info">Calle cualquier 1234</h4> 
+                    <h3 class="decoration">Telefono:</h3>
+                    <h4 class="info">+549 11234567</h4>
+                    <h3 class="decoration">Mail: </h3>
+                    <h4 class="info">Ceramica&Deco.gmail.com</h4>
+                </div>
+                <!--
+                Flata poner imagenes  
+                <div class="imagen-vela"> <img src="../Img/🕯.jpg" alt=""></div>
+                 <div class="imagen-florero"> <img src="../Img/🌾🐌.jpg" alt="" ></div>
+               
+                 use margin, no me toma el justify-content, ni el aling-items. chequear despues.-->
+            </div> 
+            
+            <form> <!-- BOOTSTRAP  -->
+                <div class="formulario">
+                    <div class="mb-3" >
+                        <label for="exampleInputEmail1" class="form-label">Mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Tu mail esta seguro con nosotros.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+            
             
 
         </main>
@@ -40,7 +70,7 @@
     
             
         </footer>
-    </nav>
+    
     
 </body>
 </html>

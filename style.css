@@ -18,21 +18,7 @@ a{
 a:hover{
     color: rgb(174, 140, 116);
 }
-.titulo{
-    font-family:'EB Garamond', serif;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 16rem;
-    color: rgb(129, 91, 53);
-    
 
-}
-.subtitulo{
-    font-family:'EB Garamond', serif;
-    font-size: 1.4rem;
-    text-align: center;
-    color: rgb(129, 91, 53);
-}
 .nav{
     display: flex;
     gap: 2rem;
@@ -41,72 +27,217 @@ a:hover{
     font-size: 1.3rem;
 }
 
+/* INDEX */
+.titulo{
+    font-family:'EB Garamond', serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 16rem;
+    color: rgb(129, 91, 53);
+}
+.subtitulo{
+    font-family:'EB Garamond', serif;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(129, 91, 53);
+    padding-bottom: 1rem;
+}
+
+/* SOBRE NOSOTROS */
 
 .textoeimagen{
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 2rem;
     gap: 10rem;
-    
-    
-   
-  
 }
-.img{
-   width: 30%;
-}
-
-.productos{
-    text-align: center;
-    
-}
-
 .title{
     display: flex;
     justify-content: center;
     font-family:'EB Garamond', serif;
-     font-size: 3rem;
+    font-size: 3rem;
      padding: 1rem;
      color: rgb(129, 91, 53);
-     
-
+}
+.img{
+   width: 30%;
 }
 .texto{
+    padding-right: 5%;
+    padding-left: 5%;
     font-family:'EB Garamond', serif;
     text-align: center;
     width: 50%; /* si esto lo hago mas chico la imagen se mueve y se va para la izquierda */
     color: rgb(129, 91, 53);
 }
 
-.imagenes{
-    align-items: center;
-    width: 20%;
-    padding-top: 2rem;
+/* TIENDA */
+.productos{
+    text-align: center;
+    
 }
-
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    min-height: 40vh;
+    margin: 1rem;
+}
+.imagenes{
+    width: 200px;
+    padding-top: 1rem;
+}
+.deco-fosforos{
+    background-color: rgb(250, 242, 230);
+    padding: .5rem;
+    border-radius: 2em;
+    
+}
+.deco-papas{
+    background-color:rgb(250, 242, 230);
+    padding: .5rem;
+    border-radius: 2em;
+}
+.imagenes-papas{
+    width: 250px;
+    padding-top: 1rem;
+}
+.deco-tostada{
+    background-color: rgb(250, 242, 230);
+    padding: .5rem;
+    border-radius: 2em;
+}
+.imagenes-tostadas{
+    width: 240px;
+    padding-top: 1rem;
+}
+.deco-cafe{
+    background-color: rgb(250, 242, 230);
+    padding: .5rem;
+    border-radius: 2em;
+}
+.imagenes-cafe{
+    width: 225px;
+    padding-top: 1rem; 
+}
+.grid-decorar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    min-height:47vh;
+    margin: 1rem;
+}
+.porta-vela{
+    background-color:rgb(250, 242, 230) ;
+    border-radius: 2em;
+    padding: .5rem;
+}
+.foto-vela{
+    width: 250px;
+    padding-top: 1rem;
+}
+.figura-humana{
+    background-color:rgb(250, 242, 230) ;
+    border-radius: 2em;
+    padding: .5rem;
+}
+.imagen-fh{
+    width: 215px;
+    padding-top: 1rem;
+}
+.florero-manos{
+    background-color:rgb(250, 242, 230) ;
+    border-radius: 2em;
+    padding: .5rem;
+}
+.florero-forma-manos{
+    width: 220px;
+    padding-top: 1rem;
+}
+.alhajero{
+    background-color:rgb(250, 242, 230) ;
+    border-radius: 2em;
+    padding: .5rem;
+}
+.imagen-alhajero{
+    width: 300px;
+    padding-top: 1rem;
+}
 .sub{
     padding-top: 3rem;
     font-family:'EB Garamond', serif;
     font-size: 1.4rem;
     text-align: center;
     color: rgb(129, 91, 53);
+    padding-bottom: 1rem;
 }
+
+
+/* CURSO CERAMICA */
 
 .contenedor{
   
     padding: 2rem;
     gap: 10rem;
 }
+.contenedor-cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.clases-grupales{
+    padding-bottom: 2rem;
+}
 
+.clases-individuales{
+    padding-bottom: 2rem;
+}
+.foto{
+    width: 30%;
+
+}
 .text{
     color: rgb(129, 91, 53);
 }
 
 
-.foto{
-    width: 30%;
-    float: right;
+/* CONTACTO */
+.grid-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 35%;
+    margin-bottom: 3rem;
+    /* no me toma el justify-content, ni el aling-items. Por eso puse margenes */
+    font-family:'EB Garamond', serif;
+    background-color:rgb(250, 242, 230);
+    border-radius: 3em; 
+    color: rgb(129, 91, 53);
+    width: 400px;
+}
+.decoration{
+    text-decoration-line: underline;
 }
 
+.info{
+    padding-bottom: 1rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* si pongo width, el justify-content y el aling-items no me lo toma. Como en el caso de arriba */
+    background-color: rgb(250, 242, 230);
+    margin-bottom: 3%;
+    padding: 1rem;
+    gap: .5rem;
+}
 .logo{
     width: 20px;
     float: left;
@@ -119,29 +250,6 @@ a:hover{
     float: left;
     margin-right: 15px;
     margin-bottom: 20px;
-   
-}
-
-.contacto{
-
-    text-align: center;
-    margin-top: 10rem;
-    margin-bottom: 15rem;
-    font-family:'EB Garamond', serif;
-    background-color:rgb(250, 242, 230);
-    /*como hago para poner un background solo a la info y que me quede centrado? ?*/
-    border-radius: 3%; /*como hago para darle forma redonda?*/
-    color: rgb(129, 91, 53);
-    
-}
-
-.decoration{
-    text-decoration-line: underline;
-   
-}
-
-.info{
-    padding-bottom: 1rem;
 }
 
 .redesS{
@@ -152,6 +260,77 @@ a:hover{
     padding-right: 1rem;
     color: rgb(129, 91, 53);
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 500px){
+
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 300px){
+
+    .grid{
+        grid-template-columns: 1fr ;
+    }
+} /* esto no esta terminado todavia*/
+
+/* ajuste de tamaño de la imagen y texto de cursos*/
+@media (max-width: 600px){
+
+    .contenedor-cursos{
+        flex-direction: column;
+    }
+}
+
+/* ajuste de tamaño del tutilo de cursos de ceramica*/
+@media (max-width: 500px){
+
+    .title{
+        font-size: 2rem;
+    }
+}
+
+/* ajuste de tamaño del nav*/
+@media (max-width: 650px){
+
+    .nav{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 540px){
+
+    .nav{
+        font-size: .7rem;
+    }
+}
+@media (max-width: 430px){
+
+    .nav{
+        font-size: .5rem;
+    }
+}
+@media (max-width: 350px){
+
+    .nav{
+        font-size: .3rem;
+    }
+}
+
+/* ajuste de tamaño del titulo*/
+@media (max-width: 500px){
+
+    .titulo{
+        font-size: 1rem;
+    }
+
+    .subtitulo{
+        font-size: .8rem;
+    }
+}
+
+
 
 
 
