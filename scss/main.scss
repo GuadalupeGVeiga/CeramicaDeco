@@ -1,0 +1,10 @@
+@import "./partials/variables"; /* VARIABLES SIEMPRE PRIMERO */
+@import "./partials/reset"; /* RESET SIEMPRE SEGUNDO */
+@import"./partials/body";
+@import "./partials/nav";
+@import "./partials/main";
+@import "./partials/footer";
+@import "./partials/mediaqueries";
+
+
+/* MEDIA QUERIES SIEMPRE ULTIMAS */

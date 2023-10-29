@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactos</title>
-    <link rel="stylesheet" href="../style.css">
+    <meta name="description" content="¿Tienes preguntas o comentarios? 
+    En nuestra sección de contacto, estamos disponibles para ayudarte. 
+    Nuestro equipo de soporte está listo para responder tus consultas y 
+    brindarte asistencia. Si deseas información adicional sobre nuestros 
+    cursos, clases o piezas de cerámica, no dudes en contactarnos. 
+    Valoramos tu retroalimentación y estamos aquí para servirte.
+    ¡Comunícate con nosotros hoy y forma parte de nuestra comunidad de cerámica!">
+
+    <meta name="keywords" content="Contacto, Soporte, Preguntas, Comentarios, Ayuda, Información, 
+    Consultas, Comunicación, Equipo, Servicio, Retroalimentación, Ayuda, Asistencia, Mensaje, 
+    Conexión, Comunicación, Servicio al Cliente, Comentario, Consulta.">
+
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <nav>
@@ -17,60 +29,46 @@
         </div>
     </nav>
         <main>
-
-             
-            <div class="grid-contacto">
-                <div class="contacto"> 
-                    <h1 class="title">Contacto</h1>
-                    <h3 class="decoration">Direccion de tienda fisica: 
-                    <h4 class="info">Calle cualquier 1234</h4> 
-                    <h3 class="decoration">Telefono:</h3>
-                    <h4 class="info">+549 11234567</h4>
-                    <h3 class="decoration">Mail: </h3>
-                    <h4 class="info">Ceramica&Deco.gmail.com</h4>
-                </div>
-                <!--
-                Flata poner imagenes  
-                <div class="imagen-vela"> <img src="../Img/🕯.jpg" alt=""></div>
-                 <div class="imagen-florero"> <img src="../Img/🌾🐌.jpg" alt="" ></div>
-               
-                 use margin, no me toma el justify-content, ni el aling-items. chequear despues.-->
-            </div> 
-            
-            <form> <!-- BOOTSTRAP  -->
-                <div class="formulario">
-                    <div class="mb-3" >
-                        <label for="exampleInputEmail1" class="form-label">Mail</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">Tu mail esta seguro con nosotros.</div>
+            <h1 class="titulo-contacto">Contactanos</h1>
+                <form> <!-- BOOTSTRAP  -->
+                    <div class="contenedor-info">
+                        <div class="formulario">
+                            <div> 
+                                <h2 class="local-fisico"> <strong>Direccion local:</strong>  <br>Av. plantas 1234</h2> 
+                            </div>
+                            <div> 
+                                <h2 class="local-fisico"> <strong>Horario de atencion:</strong>  <br> lunes a viernes de 9:00hs a 20:00hs </h2> 
+                            </div>
+                            <div class="mb-3" >
+                                <label for="exampleInputEmail1" class="form-label">Ingresa tu mail</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"> Ingrese su contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
-              </form>
-            
-            
-
+                </form>
         </main>
         <footer>
-                <div class="redesS">
+            <div class="redesS">
+                <div class="contenedor-footer">
                     <img  class="logo1" src="../Img/img-insta.png">
                     <h3 class="redes-texto">@Ceramica&Deco</h3>
-        
+                </div>
+                <div>
                     <img  class="logo" src="../Img/face-logo.png">
                     <h3 class="redes-texto">Ceramica&Deco</h3>
                 </div>
-    
-            
+            </div>
         </footer>
-    
+
     
 </body>
 </html>

@@ -8,8 +8,6 @@
 
 body{
     background-image: url(./Img/\ -2.jpg);
-    
-   
 }
 a{
     text-decoration: none;
@@ -23,7 +21,7 @@ a:hover{
     display: flex;
     gap: 2rem;
     padding: 1rem;
-    font-family:'EB Garamond', serif;
+    font-family: "EB Garamond", serif;
     font-size: 1.3rem;
 }
 
@@ -88,11 +86,18 @@ a:hover{
     width: 200px;
     padding-top: 1rem;
 }
+.tienda-transicion{
+    transition: 0.5s;
+}
+.tienda-transicion:hover{
+    transform: scale(1.1);
+}
+
+
 .deco-fosforos{
     background-color: rgb(250, 242, 230);
     padding: .5rem;
     border-radius: 2em;
-    
 }
 .deco-papas{
     background-color:rgb(250, 242, 230);
@@ -187,21 +192,24 @@ a:hover{
     align-items: center;
     gap: 2rem;
 }
+.clases-trasicion{
+    transition: 0.5s;
+}
+.clases-trasicion:hover{
+    transform: scale(1.1);
+}
 .clases-grupales{
     padding-bottom: 2rem;
 }
-
 .clases-individuales{
     padding-bottom: 2rem;
 }
 .foto{
     width: 30%;
-
 }
 .text{
     color: rgb(129, 91, 53);
 }
-
 
 /* CONTACTO */
 .grid-contacto{

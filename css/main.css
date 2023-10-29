@@ -1,0 +1,451 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+/* NO FUNCIONA $color_fuente_tienda: "rgb(129, 91, 53)";*/
+/* VARIABLES SIEMPRE PRIMERO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+}
+
+/* RESET SIEMPRE SEGUNDO */
+a {
+  text-decoration: none;
+  color: rgb(129, 91, 53);
+}
+
+a:hover {
+  color: rgb(174, 140, 116);
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  font-family: "EB Garamond", serif;
+  font-size: 1.3rem;
+}
+
+/* main HTML */
+.titulo {
+  font-family: "EB Garamond", serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 16rem;
+  color: rgb(129, 91, 53);
+}
+.titulo .subtitulo {
+  font-family: "EB Garamond", serif;
+  font-size: 1.4rem;
+  text-align: center;
+  color: rgb(129, 91, 53);
+  padding-bottom: 1rem;
+}
+
+/* main SOBRENOSOTROS */
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "EB Garamond", serif;
+  font-size: 3rem;
+  padding: 1rem;
+  color: rgb(129, 91, 53);
+}
+
+.textoeimagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 10rem;
+}
+.textoeimagen .texto {
+  padding-right: 5%;
+  padding-left: 5%;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  width: 100%; /* si esto lo hago mas chico la imagen se mueve y se va para la izquierda */
+  color: rgb(129, 91, 53);
+}
+.textoeimagen .img {
+  width: 30%;
+}
+
+/* main TIENDA */
+.productos {
+  text-align: center;
+}
+.productos .title {
+  display: flex;
+  justify-content: center;
+  font-family: "EB Garamond", serif;
+  font-size: 3rem;
+  padding: 1rem;
+  color: rgb(129, 91, 53);
+}
+.productos .subtitulo {
+  font-family: "EB Garamond", serif;
+  font-size: 1.4rem;
+  text-align: center;
+  color: rgb(129, 91, 53);
+  padding-bottom: 1rem;
+}
+.productos .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  min-height: 40vh;
+  margin: 1rem;
+}
+.productos .grid .deco-fosforos {
+  border: 1px solid rgb(129, 91, 53);
+  padding: 0.5rem;
+  border-radius: 2em;
+}
+.productos .grid .deco-fosforos .imagenes {
+  width: 200px;
+  padding-top: 1rem;
+}
+.productos .grid .deco-fosforos .color_fuentes {
+  color: rgb(129, 91, 53);
+}
+.productos .grid .tienda-transicion:hover {
+  transform: scale(1.1);
+}
+.productos .grid .tienda-transicion {
+  transition: 0.5s;
+}
+.productos .grid .deco-papas {
+  border: 1px solid rgb(129, 91, 53);
+  padding: 0.5rem;
+  border-radius: 2em;
+}
+.productos .grid .deco-papas .imagenes-papas {
+  width: 250px;
+  padding-top: 1rem;
+}
+.productos .grid .deco-papas .color_fuentes {
+  color: rgb(129, 91, 53);
+}
+.productos .grid .tienda-transicion {
+  transition: 0.5s;
+}
+.productos .grid .deco-tostada {
+  border: 1px solid rgb(129, 91, 53);
+  padding: 0.5rem;
+  border-radius: 2em;
+}
+.productos .grid .deco-tostada .imagenes-tostadas {
+  width: 240px;
+  padding-top: 1rem;
+}
+.productos .grid .deco-tostada .color_fuentes {
+  color: rgb(129, 91, 53);
+}
+.productos .grid .tienda-transicion {
+  transition: 0.5s;
+}
+.productos .grid .deco-cafe {
+  border: 1px solid rgb(129, 91, 53);
+  padding: 0.5rem;
+  border-radius: 2em;
+}
+.productos .grid .deco-cafe .imagenes-cafe {
+  width: 225px;
+  padding-top: 1rem;
+}
+.productos .grid .deco-cafe .color_fuentes {
+  color: rgb(129, 91, 53);
+}
+.productos .grid .tienda-transicion {
+  transition: 0.5s;
+}
+.productos .sub {
+  padding-top: 3rem;
+  font-family: "EB Garamond", serif;
+  font-size: 1.4rem;
+  text-align: center;
+  color: rgb(129, 91, 53);
+  padding-bottom: 1rem;
+}
+.productos .grid-decorar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  min-height: 47vh;
+  margin: 1rem;
+}
+.productos .grid-decorar .porta-vela {
+  border: 1px solid rgb(129, 91, 53);
+  border-radius: 2em;
+  padding: 0.5rem;
+}
+.productos .grid-decorar .porta-vela .foto-vela {
+  width: 250px;
+  padding-top: 1rem;
+}
+.productos .grid-decorar .porta-vela .color_fuentes {
+  color: rgb(129, 91, 53);
+}
+.productos .grid-decorar .tienda-transicion:hover {
+  transform: scale(1.1);
+}
+.productos .grid-decorar .tienda-transicion {
+  transition: 0.5s;
+}
+.productos .grid-decorar .figura-humana {
+  border: 1px solid rgb(129, 91, 53);
+  border-radius: 2em;
+  padding: 0.5rem;
+}
+.productos .grid-decorar .figura-humana .imagen-fh {
+  width: 215px;
+  padding-top: 1rem;
+}
+.productos .grid-decorar .figura-humana .color_fuentes {
+  color: rgb(129, 91, 53);
+}
+.productos .grid-decorar .tienda-transicion {
+  transition: 0.5s;
+}
+.productos .grid-decorar .florero-manos {
+  border: 1px solid rgb(129, 91, 53);
+  border-radius: 2em;
+  padding: 0.5rem;
+}
+.productos .grid-decorar .florero-manos .florero-forma-manos {
+  width: 220px;
+  padding-top: 1rem;
+}
+.productos .grid-decorar .florero-manos .color_fuentes {
+  color: rgb(129, 91, 53);
+}
+.productos .grid-decorar .tienda-transicion {
+  transition: 0.5s;
+}
+.productos .grid-decorar .alhajero {
+  border: 1px solid rgb(129, 91, 53);
+  border-radius: 2em;
+  padding: 0.5rem;
+}
+.productos .grid-decorar .alhajero .imagen-alhajero {
+  width: 300px;
+  padding-top: 1rem;
+}
+.productos .grid-decorar .alhajero .color_fuentes {
+  color: rgb(129, 91, 53);
+}
+.productos .grid-decorar .tienda-transicion {
+  transition: 0.5s;
+}
+
+/* main CURSOCERAMICA */
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "EB Garamond", serif;
+  font-size: 3rem;
+  padding: 1rem;
+  color: rgb(129, 91, 53);
+}
+
+.contenedor {
+  padding: 2rem;
+  gap: 10rem;
+}
+.contenedor .text {
+  color: rgb(129, 91, 53);
+}
+.contenedor .text .contenedor-cursos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.contenedor .text .contenedor-cursos .clases-grupales {
+  padding-bottom: 2rem;
+}
+.contenedor .text .contenedor-cursos .clases-trasicion {
+  transition: 0.5s;
+}
+.contenedor .text .contenedor-cursos .clases-trasicion:hover {
+  transform: scale(1.1);
+}
+.contenedor .text .contenedor-cursos .clases-individuales {
+  padding-bottom: 2rem;
+}
+.contenedor .text .contenedor-cursos .clases-trasicion {
+  transition: 0.5s;
+}
+.contenedor .text .contenedor-cursos .clases-trasicion {
+  transition: 0.5s;
+}
+.contenedor .text .foto {
+  width: 30%;
+}
+
+/* main COTACTANOS */
+.titulo-contacto {
+  font-family: "EB Garamond", serif;
+  color: rgb(129, 91, 53);
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+
+.contenedor-info {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(129, 91, 53);
+  height: 500px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.contenedor-info .formulario {
+  padding-top: 2rem;
+}
+.contenedor-info .formulario .local-fisico {
+  font-size: 20px;
+  color: rgb(129, 91, 53);
+  text-align: center;
+  padding: 1rem;
+}
+.contenedor-info .formulario .mb-3 {
+  display: flex;
+  flex-direction: column;
+}
+.contenedor-info .formulario .mb-3 .form-label {
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
+  color: rgb(129, 91, 53);
+}
+.contenedor-info .formulario .mb-3 .form-control {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.contenedor-info .formulario .mb-3 .form-check-input {
+  margin-top: 1rem;
+}
+.contenedor-info .formulario .mb-3 .form-check-label {
+  color: rgb(129, 91, 53);
+  text-align: center;
+}
+.contenedor-info .formulario .btn {
+  width: 70px;
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+
+.redesS {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.redesS .logo1 {
+  width: 20px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.redesS .redes-texto {
+  padding-right: 1rem;
+  color: rgb(129, 91, 53);
+}
+.redesS .logo {
+  width: 35px;
+  float: left;
+  margin-right: 15px;
+  padding-bottom: 20px;
+}
+.redesS .redes-texto {
+  padding-right: 1rem;
+  color: rgb(129, 91, 53);
+}
+
+/* MEDIA QUERIES */
+/* ajuste de tamaño de la imagen y texto de cursos*/
+@media (max-width: 600px) {
+  .contenedor-cursos {
+    flex-direction: column;
+  }
+}
+/* ajuste de tamaño del tutilo de cursos de ceramica y sobre nosotros*/
+@media (max-width: 500px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+/* ajuste de tamaño del nav*/
+@media (max-width: 650px) {
+  .nav {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 540px) {
+  .nav {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 430px) {
+  .nav {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .nav {
+    font-size: 0.3rem;
+  }
+}
+/* ajuste de tamaño del titulo*/
+@media (max-width: 500px) {
+  .titulo {
+    font-size: 1rem;
+  }
+  .subtitulo {
+    font-size: 0.8rem;
+  }
+}
+/* ajuste de tamaño del footer. FALTA ACOMODARLO*/
+@media (max-width: 400px) {
+  .redesS {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    margin-left: 6rem;
+  }
+  .logo1 {
+    margin-left: 6rem;
+  }
+}
+/* ajuste orden de SOBRENOSOTROS. El width de IMG NO FUNCIONA */
+@media (max-width: 700px) {
+  .textoeimagen {
+    flex-direction: column;
+  }
+  .img {
+    width: 50%;
+  }
+}
+/* ajuste tamaño de contactanos*/
+@media (max-width: 500px) {
+  .titulo-contacto {
+    font-size: 2rem;
+  }
+}
+/* ajuste tamaño de los contenedores de tienda. NO FUNCIONA
+
+@media(max-width: 500px){
+    .grid{
+        grid-template-columns: auto;
+        justify-content: space-around;
+    }
+}*/ /* SI LO SACO DE COMENTARIO, CUANDO LO ACHICO PARA HACERLO RESPONSIVE DESAPARECE EL PORTA FOSFOROS*/
+/* MEDIA QUERIES SIEMPRE ULTIMAS */
+
+/*# sourceMappingURL=main.css.map */

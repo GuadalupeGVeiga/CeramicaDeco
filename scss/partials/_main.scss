@@ -1,0 +1,337 @@
+/* main HTML */
+
+.titulo{
+    font-family: $fuente;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 16rem;
+    color: $color-fuente;
+
+    .subtitulo{
+        font-family: $fuente;
+        font-size: 1.4rem;
+        text-align: center;
+        color: $color-fuente;
+        padding-bottom: 1rem;
+    }
+}
+
+/* main SOBRENOSOTROS */
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: $fuente;
+    font-size: 3rem;
+     padding: 1rem;
+     color: $color-fuente;
+}
+.textoeimagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 10rem;
+
+    .texto{
+        padding-right: 5%;
+        padding-left: 5%;
+        font-family: $fuente;
+        text-align: center;
+        width: 100%; /* si esto lo hago mas chico la imagen se mueve y se va para la izquierda */
+        color: $color-fuente;
+    }
+
+    .img{
+        width: 30%;
+     }
+}
+
+
+/* main TIENDA */
+ .productos{
+    text-align: center;
+    
+    .title{
+        display: flex;
+        justify-content: center;
+        font-family: $fuente;
+        font-size: 3rem;
+        padding: 1rem;
+        color: $color-fuente;
+    }
+    .subtitulo{
+        font-family: $fuente;
+        font-size: 1.4rem;
+        text-align: center;
+        color: $color-fuente;
+        padding-bottom: 1rem;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        min-height: 40vh;
+        margin: 1rem;
+
+        .deco-fosforos{
+            border: 1px solid $color-fuente;
+            padding: .5rem;
+            border-radius: 2em;
+            .imagenes{
+                width: 200px;
+                padding-top: 1rem;
+            }
+            .color_fuentes{
+                color: $color-fuente ;
+            }
+        }
+        .tienda-transicion:hover{
+            transform: scale(1.1);
+        }
+        .tienda-transicion{
+            transition: 0.5s;
+        }
+        .deco-papas{
+            border: 1px solid $color-fuente;
+            padding: .5rem;
+            border-radius: 2em;
+            .imagenes-papas{
+                width: 250px;
+                padding-top: 1rem;
+            }
+            .color_fuentes{
+                color: $color-fuente;
+            }
+        }
+        .tienda-transicion{
+            transition: 0.5s;
+        }
+        .deco-tostada{
+            border: 1px solid $color-fuente;
+            padding: .5rem;
+            border-radius: 2em;
+            .imagenes-tostadas{
+                width: 240px;
+                padding-top: 1rem;
+            }
+            .color_fuentes{
+                color: $color-fuente;
+            }
+        }
+        .tienda-transicion{
+            transition: 0.5s;
+        }
+        .deco-cafe{
+            border: 1px solid $color-fuente;
+            padding: .5rem;
+            border-radius: 2em;
+            .imagenes-cafe{
+                width: 225px;
+                padding-top: 1rem; 
+            }
+            .color_fuentes{
+                color: $color-fuente;
+            }
+        }
+        .tienda-transicion{
+            transition: 0.5s;
+        }
+    }
+    .sub{
+        padding-top: 3rem;
+        font-family: $fuente;
+        font-size: 1.4rem;
+        text-align: center;
+        color: $color-fuente;
+        padding-bottom: 1rem;
+    }
+    .grid-decorar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        min-height:47vh;
+        margin: 1rem;
+
+        .porta-vela{
+            border: 1px solid $color-fuente;
+            border-radius: 2em;
+            padding: .5rem;
+            .foto-vela{
+                width: 250px;
+                padding-top: 1rem;
+            }
+            .color_fuentes{
+                color: $color-fuente;
+            }
+        }
+        .tienda-transicion:hover{
+            transform: scale(1.1);
+        }
+        .tienda-transicion{
+            transition: 0.5s;
+        }
+        .figura-humana{
+            border: 1px solid $color-fuente;
+            border-radius: 2em;
+            padding: .5rem;
+            .imagen-fh{
+                width: 215px;
+                padding-top: 1rem;
+            }
+            .color_fuentes{
+                color: $color-fuente;
+            }
+        }
+        .tienda-transicion{
+            transition: 0.5s;
+        }
+        .florero-manos{
+            border: 1px solid $color-fuente;
+            border-radius: 2em;
+            padding: .5rem;
+            .florero-forma-manos{
+                width: 220px;
+                padding-top: 1rem;
+            }
+            .color_fuentes{
+                color: $color-fuente;
+            }
+        }
+        .tienda-transicion{
+            transition: 0.5s;
+        }
+        .alhajero{
+            border: 1px solid $color-fuente;
+            border-radius: 2em;
+            padding: .5rem;
+            .imagen-alhajero{
+                width: 300px;
+                padding-top: 1rem;
+            }
+            .color_fuentes{
+                color: $color-fuente;
+            }
+        }
+        .tienda-transicion{
+            transition: 0.5s;
+        }
+    }
+
+}
+
+/* main CURSOCERAMICA */
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: $fuente;
+    font-size: 3rem;
+     padding: 1rem;
+     color: $color-fuente;
+}
+.contenedor{
+  
+    padding: 2rem;
+    gap: 10rem;
+
+    .text{
+        color: $color-fuente;
+
+        .contenedor-cursos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+
+            .clases-grupales{
+                padding-bottom: 2rem;
+            }
+
+            .clases-trasicion{
+                transition: 0.5s;
+            }
+            .clases-trasicion:hover{
+                transform: scale(1.1);
+            }
+
+            .clases-individuales{
+                padding-bottom: 2rem;
+            }
+
+            .clases-trasicion{
+                transition: 0.5s;
+            }
+
+            .clases-trasicion{
+                transition: 0.5s;
+            }
+        }
+        .foto{
+            width: 30%;
+        }
+    }
+}
+
+/* main COTACTANOS */
+.titulo-contacto{
+    font-family: $fuente;
+    color:$color-fuente;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.contenedor-info{
+    display: flex;
+    justify-content: center;
+    border: 1px solid $color-fuente;
+    height: 500px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+
+    .formulario{
+        padding-top: 2rem;
+
+        .local-fisico{
+            font-size: 20px;
+            color:  $color-fuente;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .mb-3{
+            display: flex;
+            flex-direction: column;
+
+            .form-label{
+                text-align: center;
+                padding: 1rem;
+                font-size: 20px;
+                color:  $color-fuente;
+            }
+            .form-control{
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            .form-check-input{
+                margin-top: 1rem;
+                
+            }
+            
+            .form-check-label{
+                color:  $color-fuente;
+                text-align: center;
+            }
+
+        }
+        .btn{
+            width: 70px;
+            margin-left: 7rem;
+            margin-top: 2rem;
+            
+        }
+    }
+}
+
+
