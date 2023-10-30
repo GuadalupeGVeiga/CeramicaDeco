@@ -19,6 +19,10 @@ a:hover {
   color: rgb(174, 140, 116);
 }
 
+body {
+  background-image: url(../Img/\ -2.jpg);
+}
+
 .nav {
   display: flex;
   gap: 2rem;
