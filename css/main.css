@@ -103,7 +103,7 @@ body {
   margin: 1rem;
 }
 .productos .grid .deco-fosforos {
-  border: 1px solid rgb(129, 91, 53);
+  border: 2px solid rgb(129, 91, 53);
   padding: 0.5rem;
   border-radius: 2em;
 }
@@ -121,7 +121,7 @@ body {
   transition: 0.5s;
 }
 .productos .grid .deco-papas {
-  border: 1px solid rgb(129, 91, 53);
+  border: 2px solid rgb(129, 91, 53);
   padding: 0.5rem;
   border-radius: 2em;
 }
@@ -136,7 +136,7 @@ body {
   transition: 0.5s;
 }
 .productos .grid .deco-tostada {
-  border: 1px solid rgb(129, 91, 53);
+  border: 2px solid rgb(129, 91, 53);
   padding: 0.5rem;
   border-radius: 2em;
 }
@@ -151,7 +151,7 @@ body {
   transition: 0.5s;
 }
 .productos .grid .deco-cafe {
-  border: 1px solid rgb(129, 91, 53);
+  border: 2px solid rgb(129, 91, 53);
   padding: 0.5rem;
   border-radius: 2em;
 }
@@ -181,7 +181,7 @@ body {
   margin: 1rem;
 }
 .productos .grid-decorar .porta-vela {
-  border: 1px solid rgb(129, 91, 53);
+  border: 2px solid rgb(129, 91, 53);
   border-radius: 2em;
   padding: 0.5rem;
 }
@@ -199,7 +199,7 @@ body {
   transition: 0.5s;
 }
 .productos .grid-decorar .figura-humana {
-  border: 1px solid rgb(129, 91, 53);
+  border: 2px solid rgb(129, 91, 53);
   border-radius: 2em;
   padding: 0.5rem;
 }
@@ -214,7 +214,7 @@ body {
   transition: 0.5s;
 }
 .productos .grid-decorar .florero-manos {
-  border: 1px solid rgb(129, 91, 53);
+  border: 2px solid rgb(129, 91, 53);
   border-radius: 2em;
   padding: 0.5rem;
 }
@@ -229,7 +229,7 @@ body {
   transition: 0.5s;
 }
 .productos .grid-decorar .alhajero {
-  border: 1px solid rgb(129, 91, 53);
+  border: 2px solid rgb(129, 91, 53);
   border-radius: 2em;
   padding: 0.5rem;
 }
@@ -301,7 +301,7 @@ body {
 .contenedor-info {
   display: flex;
   justify-content: center;
-  border: 1px solid rgb(129, 91, 53);
+  border: 2px solid rgb(129, 91, 53);
   height: 500px;
   margin-left: 15%;
   margin-right: 15%;
@@ -442,17 +442,43 @@ body {
     font-size: 2rem;
   }
 }
-@media (max-width: 500px) {
-  .grid {
+/*ajuste tamaño de los contenedores de tienda.*/
+@media (max-width: 700px) {
+  .productos .grid {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-  .grid-decorar {
-    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    min-height: 40vh;
+    margin: 1rem;
   }
 }
-/* ajuste tamaño de los contenedores de tienda. NO FUNCIONA*/
-/* tampoco funciona el ajuste de los titulos y del footer, 
-los cuales comparte con otros html y en los otros si funcionan*/
+@media (max-width: 700px) {
+  .productos .grid-decorar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    min-height: 47vh;
+    margin: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .productos .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    min-height: 40vh;
+    margin: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .productos .grid-decorar {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    min-height: 47vh;
+    margin: 1rem;
+  }
+}
 /* MEDIA QUERIES SIEMPRE ULTIMAS */
 
 /*# sourceMappingURL=main.css.map */
