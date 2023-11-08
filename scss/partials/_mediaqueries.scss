@@ -89,14 +89,18 @@
     }
 }
 
-/* ajuste tamaño de los contenedores de tienda. NO FUNCIONA
 
-@media(max-width: 500px){
+@media (max-width: 500px){
     .grid{
-        grid-template-columns: auto;
-        justify-content: space-around;
+        grid-template-columns: 1fr 1fr;
     }
-}*/ /* SI LO SACO DE COMENTARIO, CUANDO LO ACHICO PARA HACERLO RESPONSIVE DESAPARECE EL PORTA FOSFOROS*/
+    .grid-decorar{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* ajuste tamaño de los contenedores de tienda. NO FUNCIONA*/ 
+/* tampoco funciona el ajuste de los titulos y del footer, 
+los cuales comparte con otros html y en los otros si funcionan*/
 
 
 
